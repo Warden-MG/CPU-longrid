@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #0d0f17; /* Темный фон */
+}
+
+header {
+    background-color: #0d0f17;
+    color: #ffcc00; /* Желтый цвет заголовка */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #ffcc00;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #161a27; /* Темно-серый блок */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    color: #ffcc00; /* Желтые заголовки */
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #ffcc00; /* Желтые заголовки */
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p, ul {
+    color: #e0e0e0; /* Светло-серый текст */
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+ul li::before {
+    content: "•";
+    color: #ffcc00;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+article {
+    margin-bottom: 30px;
+    border-left: 3px solid #ffcc00;
+    padding-left: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #0d0f17;
+    color: #ffcc00;
+    margin-top: 20px;
+    border-top: 2px solid #ffcc00;
+}
+
+.centered-img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border: 2px solid #ffcc00;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 204, 0, 0.5);
+}
+
+.icon {
+    width: 52px; /* Ширина иконки */
+    height: 52px; /* Высота иконки */
+    margin-right: 8px; /* Отступ справа от иконки */
+    vertical-align: middle; /* Выравнивание по центру с текстом */
+}
